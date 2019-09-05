@@ -1,18 +1,18 @@
 **The SFDigital Foundation**
 
 _Navbar:_
-About 
-Work with us
-Our impact
-Donate
+- About 
+- Work with us
+- Our impact
+- Donate
 
 **Apply for the 10th annual SFDigital Fellowship**
 
 _Sidebar:_
-About the fellowship
-Testimonials
-Alumni
-Apply
+- About the fellowship
+- Testimonials
+- Alumni
+- Apply
 
 **What is the SFDigital Fellowship?**
 
@@ -29,12 +29,19 @@ As an SFDigital Fellow, you will re-think how public services are designed, by u
 **How long does the fellowship last?**
 
 Season: Fall
+
 Length: 10–11 weeks (depends on your start date)
 
+---
+
 Season: Winter
+
 Length: 4–5 weeks (depends on your start date)
 
+---
+
 Season: Fall
+
 Length: 10–11 weeks (depends on your start date)
 
 **Sign up for our newsletter**
@@ -44,9 +51,9 @@ Email address
 How did you hear about us?
 
 _Options:_
-Website
-Email
-Word of mouth
+- Website
+- Email
+- Word of mouth
 
 Submit
 
