@@ -1,5 +1,7 @@
 # SFDS - HTML / CSS Take-Home Assignment
 
+Please read all of the instructions before getting started!
+
 ### The exercise
 
 We’d like you to convert a mockup into a fully responsive web page.
@@ -32,7 +34,15 @@ Please spend a maximum of 4 hours on this exercise. If you’re unable to commit
 
 If you reach 4 hours and don’t have anything presentable, please contact us and we'll help you decide what to do next.
 
+### What’s in this repo?
+
+- The page’s raw content (images and text)
+
+- A boilerplate HTML file to get you started. (Feel free to modify or remove whatever you’d like.)
+
 ### How your work will be evaluated
+
+When thinking about how to prioritize your time, try to strike a balance between all five of these metrics, instead of focusing on one (e.g. spending all of your time matching the mockup exactly.)
 
 - **Readability.** Your code and Git commits should be organized in a way that’s easy for others to read and contribute to. CSS class names should also be easy to understand.
 
