@@ -1,0 +1,5 @@
+[
+    {"season:": "fall", "duration": "10-11 weeks", "start_date":true},
+    {"season:": "winter", "duration": "4-5 weeks", "start_date":false},
+    {"season:": "sprint", "duration": "10-11 weeks", "start_date":true}
+]
