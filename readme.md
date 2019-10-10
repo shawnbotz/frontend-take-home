@@ -1,4 +1,4 @@
-# SFDS - HTML / CSS Take-Home Assignment
+# SFDS - HTML / CSS / JS Take-Home Assignment
 
 Please read all of the instructions before getting started!
 
@@ -24,7 +24,7 @@ If you're not a designer and are having trouble using Figma, let us know and we 
 
 ### What happens after I’m done?
 
-We’ll schedule a 30–minute call where we’ll walk through the code you’ve submitted. We’ll also discuss the types of improvements you might make going forward, if this were a real project.
+We’ll schedule a 30–minute call or in-person session where we’ll walk through the code you’ve submitted. We’ll also discuss the types of improvements you might make going forward, if this were a real project.
 
 We’re not evaluating your presentation skills in this call. Rather, this is an opportunity for us to better understand the thought process behind your work, and thus assess it more accurately.
 
@@ -44,11 +44,11 @@ If you reach 4 hours and don’t have anything presentable, please contact us an
 
 When thinking about how to prioritize your time, try to strike a balance between all five of these metrics, instead of focusing on one (e.g. spending all of your time matching the mockup exactly.)
 
-- **Readability.** Your code and Git commits should be organized in a way that’s easy for others to read and contribute to. CSS class names should also be easy to understand.
+- **Readability.** Your code and Git commits should be organized in a way that’s easy for others to read and contribute to. For example, CSS class names should also be easy to understand.
 
-- **Maintainability.** Your CSS should avoid “magic numbers” or one-off exceptions. In other words, it should be easy for someone to make changes to one area of the page without introducing a bug elsewhere.
+- **Maintainability.** Your work should consist of multiple resuable components. It should avoid “magic numbers” or one-off exceptions. In other words, it should be easy for someone to make changes to one area of the page without introducing a bug elsewhere.
 
-- **Accessibility.** Your markup should be semantic, valid, and easy for assistive technologies to parse. Newer HTML / CSS standards should gracefully degrade in older browsers.
+- **Accessibility.** Your markup should be semantic, valid, and easy for assistive technologies to parse. Newer HTML / CSS / JS standards should gracefully degrade in older browsers.
 
 - **Visual fidelity.** You don’t need to achieve pixel perfection, but your code should roughly match the mockup (and not display a blank page) across all supported browsers and screen sizes.
 
