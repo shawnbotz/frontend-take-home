@@ -43,6 +43,7 @@ If you reach 4 hours and don’t have anything presentable, please contact us an
 - The page’s raw content
   * images in `/images`
   * text in `content.md`
+  * JSON in `/data`
 
 - A boilerplate HTML file to get you started. (Feel free to modify or remove whatever you’d like.)
 
