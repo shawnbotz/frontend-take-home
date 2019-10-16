@@ -12,7 +12,7 @@ At a minimum, the page should support:
 
 - Firefox, Chrome, and Microsoft Edge. (If you have a Mac, you can test Edge with a [free Browserstack account.](https://www.browserstack.com/test-on-microsoft-edge-browser#))
 
-If you're applying for an engineering position, we've also provided a JSON file for you to populate the data in the "How long does the fellowship last?" table. (If you're applying for a designer position, feel free to ignore it.)
+If you're applying for an engineer or developer position, we've also provided a JSON file for you to populate the data in the "How long does the fellowship last?" table. (If you're applying for a designer position, feel free to ignore it.)
 
 Please share your code via a publicly accessible Git repository, and try to regularly commit to the repo like you would in a real software project.
 
@@ -40,7 +40,9 @@ If you reach 4 hours and don’t have anything presentable, please contact us an
 
 ### What’s in this repo?
 
-- The page’s raw content (images and text)
+- The page’s raw content
+  * images in `/images`
+  * text in `content.md`
 
 - A boilerplate HTML file to get you started. (Feel free to modify or remove whatever you’d like.)
 
