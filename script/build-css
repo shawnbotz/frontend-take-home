@@ -1,0 +1,4 @@
+#!/bin/bash
+cd assets
+curl -O "https://raw.githubusercontent.com/tachyons-css/tachyons/master/css/tachyons.css"
+curl -O "https://raw.githubusercontent.com/tachyons-css/tachyons/master/css/tachyons.min.css"

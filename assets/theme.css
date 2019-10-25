@@ -1,0 +1,9 @@
+:root {
+  --blue: #4F66EE;
+  --near-black: #212123;
+  --near-white: #E5E5E5;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+}
