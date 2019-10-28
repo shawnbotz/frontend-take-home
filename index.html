@@ -1,13 +1,163 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width;initial-scale=1">
-	<!-- Website typeface -->
-	<link href="https://fonts.googleapis.com/css?family=Work+Sans:400,700&display=swap" rel="stylesheet">
-	<title>SFDS Front-End Exercise</title>
-</head>
-<body>
-	<!-- Insert your content here -->
-</body>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SFDS Front-End Exercise</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Work+Sans:400,700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="assets/tachyons.css" rel="stylesheet" />
+    <link href="assets/theme.css" rel="stylesheet" />
+  </head>
+  <body class="bg-white">
+    <header class="bg-blue">
+      <div class="flex justify-between items-center ph4 pv4">
+        <div class="flex-auto f5 f3-l lh-1">
+          <a href="#" class="link white pre">The SF Digital Fellowship</a>
+        </div>
+        <nav>
+          <ul class="list f5 f3-l ma0 flex">
+            <li><a class="link white mr4 mr5-l pre" href="/about">About</a></li>
+            <li><a class="link white mr4 mr5-l pre" href="/work">Work With Us</a></li>
+            <li><a class="link white mr4 mr5-l pre" href="/impact">Our Impact</a></li>
+            <li>
+              <a class="b link blue bg-white pa3 br3" href="/donate"
+                >Donate</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="relative overflow-hidden">
+        <img
+          class="absolute mw-none o-10"
+          style="width: 150%; top: -105%; height: auto; left: -50%;"
+          src="images/unsplash - golden gate.jpg"
+        />
+        <h1 class="relative f1 b ma0 white ph4 pv5">
+          <div class="mw7">
+            Apply for the 10th annual SFDigital Fellowship
+          </div>
+        </h1>
+      </div>
+    </header>
+    <div class="flex pt4">
+      <nav class="w6 mt1">
+        <ul class="list ma0 pa0" role="tablist">
+          <li
+            class="ph4 pv2 bg-blue br-pill br--right mb2"
+            role="tab"
+            aria-selected="true"
+          >
+            <a class="b link white" href="/about">About the fellowship</a>
+          </li>
+          <li class="ph4 pv2 mb2" role="tab">
+            <a class="b underline link blue" href="/testimonials"
+              >Testimonials</a
+            >
+          </li>
+          <li class="ph4 pv2 mb2" role="tab">
+            <a class="b underline link blue" href="/alumni">Alumni</a>
+          </li>
+          <li class="ph4 pv2 mb2" role="tab">
+            <a class="b underline link blue" href="/apply">
+              Apply
+              <span class="ba bw1 br-pill ml2">
+                <img
+                  style="height: .75em; width: 1.15em;"
+                  src="icons/icon-pencil.svg"
+                />
+              </span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <main class="flex-auto f4 lh-copy mw8 ph4 pb6 near-black">
+        <h1 class="f2 mt0">What is the SFDigital Fellowship?</h1>
+        <p>
+          An opportunity for people in the technology industry to help modernize
+          city government.
+        </p>
+        <img src="images/createherstock - coworking.jpg" width="100%" />
+
+        <h2>What will fellows work on?</h2>
+        <p>
+          SFDigital fellows will work with the city to improve public services.
+          They use technology to make it easier for people to get things done.
+        </p>
+        <p>
+          Fellows work on critical issues like affordable housing, small
+          businesses, legal aid for immigrants, and more. They are also helping
+          to rebuild the city’s website from the ground up. This means taking a
+          service-led approach so that anyone using the site can get what they
+          need.
+        </p>
+        <p>
+          As an SFDigital Fellow, you will re-think how public services are
+          designed, by understanding what our users need and building with an
+          agile approach.
+        </p>
+
+        <h2>How long does the fellowship last?</h2>
+
+        <table class="w-100 mb6">
+          <thead>
+            <tr>
+              <th class="w5">Season</th>
+              <th>Length</th>
+            </tr>
+          </thead>
+          <tbody data-source="data/schedule.json" data-target="schedule-row">
+            <template id="schedule-row">
+              <tr>
+                <td data-key="season"></td>
+                <td>
+                  <span data-key="duration"></span><br />
+                  <span class="dark-gray" data-visible="dependsOnStartDate"
+                    >(depends on your start date)</span
+                  >
+                </td>
+              </tr>
+            </template>
+          </tbody>
+        </table>
+
+        <form class="bg-blue-o-10 br3 pa4 flex items-start">
+          <div class="pr4 pt2">
+            <!-- TODO: add circle around this, a la pencil icon in nav -->
+            <img src="icons/icon-mail.svg" class="mt1" />
+          </div>
+          <div class="flex-auto">
+            <h2 class="mt0 mb4">Sign up for our newsletter</h2>
+
+            <label class="db mb1 f4" for="email" placeholder="you@example.com">Email address</label>
+            <input class="input-reset db mb3 w5" type="text" id="email" name="email" />
+
+            <label class="db mb1 f4" for="referrer">How did you hear about us?</label>
+
+            <div class="mb3 w-100">
+              <div class="relative dib w5">
+                <select class="input-reset db w-100" id="referrer" name="referrer">
+                  <option selected>Website</option>
+                  <option>Twitter</option>
+                  <option>LinkedIn</option>
+                  <option disabled>Facebook</option>
+                  <option>Other</option>
+                </select>
+                <img src="icons/icon-chevron.svg" class="absolute top-0 right-1 mt2">
+              </div>
+            </div>
+
+            <button class="bg-blue white pv3" type="submit">
+              Submit
+            </button>
+          </div>
+        </form>
+      </main>
+    </div>
+    <script src="index.js"></script>
+  </body>
 </html>

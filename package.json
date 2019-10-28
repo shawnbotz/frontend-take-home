@@ -1,0 +1,9 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "script/build"
+  },
+  "devDependencies": {
+    "prettier": "^1.18.2"
+  }
+}

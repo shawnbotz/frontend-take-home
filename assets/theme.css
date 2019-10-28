@@ -1,0 +1,61 @@
+:root {
+  --blue: #4f66ee;
+  --silver: #999;
+  --gray: #777;
+  --near-black: #212123;
+  --white: #fff;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+}
+
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+th,
+td {
+  border-top: 1px solid var(--gray);
+  padding: 8px 16px 8px 0;
+  text-align: left;
+  vertical-align: top;
+}
+
+thead th {
+  border-top-color: var(--silver);
+  border-top-width: 3px;
+}
+
+.bg-blue-o-10 {
+  background-color: rgba(79, 102, 238, .1);
+}
+
+input,
+select {
+  background-color: var(--white);
+  border: 3px solid var(--near-black);
+  outline: none;
+}
+
+select {
+  position: relative;
+}
+
+select::after {
+  content: url(../icons/icon-chevron.svg);
+}
+
+input,
+select,
+button {
+  border-radius: .5rem;
+  padding: 1rem;
+}
+
+::placeholder,
+::-webkit-input-placeholder {
+  color: var(--silver);
+}
