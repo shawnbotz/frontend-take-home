@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width;initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>SFDS Front-End Exercise</title>
     <link
       href="https://fonts.googleapis.com/css?family=Work+Sans:400,700&display=swap"
@@ -11,7 +11,7 @@
     <link href="assets/tachyons.css" rel="stylesheet" />
     <link href="assets/theme.css" rel="stylesheet" />
   </head>
-  <body class="bg-near-white">
+  <body class="bg-white">
     <header class="bg-blue">
       <div class="flex justify-between items-center ph4 pv3">
         <div class="flex-auto f3 lh-1">
@@ -74,9 +74,50 @@
           </li>
         </ul>
       </nav>
-      <main class="flex-auto ph4 near-black">
+
+      <main class="flex-auto f4 lh-copy mw8 ph4 pb6 near-black">
         <h1 class="f2 mt0">What is the SFDigital Fellowship?</h1>
+        <p>An opportunity for people in the technology industry to help modernize city government.</p>
+        <img src="images/createherstock - coworking.jpg" width="100%">
+
+        <h2>What will fellows work on?</h2>
+        <p>SFDigital fellows will work with the city to improve public services. They use technology to make it easier for people to get things done.</p>
+        <p>Fellows work on critical issues like affordable housing, small businesses, legal aid for immigrants, and more. They are also helping to rebuild the city’s website from the ground up. This means taking a service-led approach so that anyone using the site can get what they need.</p>
+        <p>As an SFDigital Fellow, you will re-think how public services are designed, by understanding what our users need and building with an agile approach.</p>
+
+        <h2>How long does the fellowship last?</h2>
+
+        <table class="w-100 mb6">
+          <thead>
+            <tr>
+              <th class="w5">Season</th>
+              <th>Length</th>
+            </tr>
+          </thead>
+          <tbody data-source="data/schedule.json" data-target="schedule-row">
+            <template id="schedule-row">
+              <tr>
+                <td data-key="season"></td>
+                <td>
+                  <span data-key="duration"></span><br>
+                  <span class="dark-gray" data-visible="dependsOnStartDate">(depends on your start date)</span>
+                </td>
+              </tr>
+            </template>
+          </tbody>
+        </table>
+
+        <form class="bg-blue-o-10 br1 pa4 flex items-start">
+          <div class="pr4 pt1">
+            <!-- TODO: add circle around this, a la pencil icon in nav -->
+            <img src="icons/icon-mail.svg" class="mt1">
+          </div>
+          <div class="flex-auto">
+            <h3 class="mt0 mb2">Sign up for our newsletter</h3>
+          </div>
+        </form>
       </main>
     </div>
+    <script src="index.js"></script>
   </body>
 </html>
