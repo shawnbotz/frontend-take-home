@@ -1,7 +1,8 @@
 :root {
   --blue: #4F66EE;
+  --silver: #999999;
+  --gray: #777777;
   --near-black: #212123;
-  --near-white: #E5E5E5;
 }
 
 body {
