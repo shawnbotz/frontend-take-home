@@ -1,8 +1,9 @@
 :root {
-  --blue: #4F66EE;
-  --silver: #999999;
-  --gray: #777777;
+  --blue: #4f66ee;
+  --silver: #999;
+  --gray: #777;
   --near-black: #212123;
+  --white: #fff;
 }
 
 body {
@@ -15,7 +16,8 @@ table {
   table-layout: fixed;
 }
 
-th, td {
+th,
+td {
   border-top: 1px solid var(--gray);
   padding: 8px 16px 8px 0;
   text-align: left;
@@ -29,4 +31,26 @@ thead th {
 
 .bg-blue-o-10 {
   background-color: rgba(79, 102, 238, .1);
+}
+
+input,
+select {
+  background-color: var(--white);
+  border: 3px solid var(--near-black);
+  outline: none;
+}
+
+select {
+  position: relative;
+}
+
+select::after {
+  content: url(../icons/icon-chevron.svg);
+}
+
+input,
+select,
+button {
+  border-radius: .5rem;
+  padding: .5rem;
 }
