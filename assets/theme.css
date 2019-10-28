@@ -52,5 +52,10 @@ input,
 select,
 button {
   border-radius: .5rem;
-  padding: .5rem;
+  padding: 1rem;
+}
+
+::placeholder,
+::-webkit-input-placeholder {
+  color: var(--silver);
 }

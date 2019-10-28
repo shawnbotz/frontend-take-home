@@ -13,17 +13,17 @@
   </head>
   <body class="bg-white">
     <header class="bg-blue">
-      <div class="flex justify-between items-center ph4 pv3">
-        <div class="flex-auto f3 lh-1">
-          <a href="#" class="link white">The SF Digital Fellowship</a>
+      <div class="flex justify-between items-center ph4 pv4">
+        <div class="flex-auto f5 f3-l lh-1">
+          <a href="#" class="link white pre">The SF Digital Fellowship</a>
         </div>
         <nav>
-          <ul class="list f5 ma0 flex">
-            <li><a class="link white mr5" href="/about">About</a></li>
-            <li><a class="link white mr5" href="/work">Work With Us</a></li>
-            <li><a class="link white mr5" href="/impact">Our Impact</a></li>
+          <ul class="list f5 f3-l ma0 flex">
+            <li><a class="link white mr4 mr5-l pre" href="/about">About</a></li>
+            <li><a class="link white mr4 mr5-l pre" href="/work">Work With Us</a></li>
+            <li><a class="link white mr4 mr5-l pre" href="/impact">Our Impact</a></li>
             <li>
-              <a class="link blue bg-white ph3 pv2 br3" href="/donate"
+              <a class="b link blue bg-white pa3 br3" href="/donate"
                 >Donate</a
               >
             </li>
@@ -133,19 +133,25 @@
           <div class="flex-auto">
             <h2 class="mt0 mb4">Sign up for our newsletter</h2>
 
-            <label class="db f4" for="email">Email address</label>
-            <input class="input-reset db mb2 mw-6" type="text" id="email" name="email" />
+            <label class="db mb1 f4" for="email" placeholder="you@example.com">Email address</label>
+            <input class="input-reset db mb3 w5" type="text" id="email" name="email" />
 
-            <label class="db f4" for="how">How did you hear about us?</label>
-            <select class="input-reset db mb2 mw-6" id="how" name="how">
-              <option selected>Website</option>
-              <option>Twitter</option>
-              <option>LinkedIn</option>
-              <option disabled>Facebook</option>
-              <option>Other</option>
-            </select>
+            <label class="db mb1 f4" for="referrer">How did you hear about us?</label>
 
-            <button class="bg-blue white" type="submit">
+            <div class="mb3 w-100">
+              <div class="relative dib w5">
+                <select class="input-reset db w-100" id="referrer" name="referrer">
+                  <option selected>Website</option>
+                  <option>Twitter</option>
+                  <option>LinkedIn</option>
+                  <option disabled>Facebook</option>
+                  <option>Other</option>
+                </select>
+                <img src="icons/icon-chevron.svg" class="absolute top-0 right-1 mt2">
+              </div>
+            </div>
+
+            <button class="bg-blue white pv3" type="submit">
               Submit
             </button>
           </div>
