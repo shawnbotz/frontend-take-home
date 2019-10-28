@@ -7,7 +7,6 @@ for (const el of document.querySelectorAll('[data-source][data-target]')) {
   req.onreadystatechange = function(e) {
     if (this.readyState === 4 && this.status === 200) {
       const rows = JSON.parse(this.responseText)
-      console.warn('rows:', rows)
       for (const row of rows) {
         const tr = document.importNode(template.content, true)
         const data = {
